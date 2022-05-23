@@ -1,0 +1,183 @@
+/************************************************** portfolio page **************************************/
+@media (max-width: 1150px) {
+  .project_card {
+    width: 23%;
+  }
+}
+/************************************************** 1000px **************************************/
+@media (max-width: 1000px) {
+  .project_card {
+    width: 25%;
+  }
+  .home_main_text {
+    font-size: 4.4rem;
+  }
+  .home_sub_text {
+    font-size: 2rem;
+  }
+  .vk_logo {
+    width: 4%;
+  }
+  .home_main_img {
+    width: 35%;
+  }
+}
+/************************************************** 900px **************************************/
+@media (max-width: 900px) {
+  .project_card {
+    width: 28%;
+  }
+  .home_main_text {
+    font-size: 4rem;
+  }
+  .home_sub_text {
+    font-size: 1.8rem;
+  }
+  .home_main_img {
+    width: 40%;
+  }
+  .vk_logo {
+    width: 5%;
+  }
+}
+/************************************************** 800px **************************************/
+@media (max-width: 800px) {
+  .project_card {
+    width: 30%;
+  }
+  .project_heading {
+    font-size: 1.6rem;
+  }
+  .home_main_text {
+    font-size: 3.4rem;
+  }
+  .home_sub_text {
+    font-size: 1.7rem;
+  }
+  .home_main_img {
+    width: 45%;
+  }
+  .btn_contact {
+    padding: 0.6rem 1.2rem;
+  }
+}
+/************************************************** 700px **************************************/
+@media (max-width: 700px) {
+  .project_card {
+    width: 40%;
+  }
+  .projects_card_box {
+    flex-wrap: wrap;
+    gap: 2.4rem;
+  }
+}
+/************************************************** 700px **************************************/
+@media (max-width: 650px) {
+  .home_main_text {
+    font-size: 3.2rem;
+  }
+  .home_sub_text {
+    font-size: 1.6rem;
+  }
+  .home_main_img {
+    width: 48%;
+  }
+}
+/************************************************** 600px **************************************/
+@media (max-width: 600px) {
+  .project_card {
+    width: 70%;
+  }
+}
+/************************************************** 413px **************************************/
+
+@media (max-width: 413px) {
+  .container {
+    margin: 3.2rem 1.2rem;
+  }
+  .home_main_text {
+    font-size: 3.4rem;
+  }
+  .home_sub_text {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+  .home_main_img {
+    width: 95%;
+  }
+  .vk_logo {
+    width: 9%;
+  }
+  .btn_contact {
+    padding: 0.6rem 0.8rem;
+  }
+  .overlay_box {
+    height: 40vh;
+  }
+  .intro_section_main_text {
+    font-size: 2.4rem;
+    width: 90%;
+  }
+  .intro_section_sub_text {
+    font-size: 1.8rem;
+    width: 80%;
+  }
+  .skill_page_subheading {
+    font-size: 2.8rem;
+  }
+  .skill_page_designer_developer {
+    flex-wrap: wrap;
+  }
+  .skill_page_boxes {
+    width: 90%;
+    height: 33vh;
+  }
+  .roadmap_detail_box {
+    flex-wrap: wrap;
+  }
+  .roadmap_heading_text {
+    font-size: 2.8rem;
+    margin-bottom: 2.8rem;
+  }
+  .project_card {
+    width: 100%;
+  }
+  .projects_card_box {
+    gap: 3.2rem;
+  }
+  .vk_logo_footer {
+    width: 7%;
+  }
+  .footer_quote {
+    font-size: 2rem;
+  }
+  .footer_social_icons {
+    width: 60%;
+  }
+  .footer_contact_conatiner {
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+}
+/************************************************** 375px **************************************/
+@media (max-width: 375px) {
+  .container {
+    margin: 3.2rem 1.8rem;
+  }
+  .home_main_text {
+    font-size: 3rem;
+  }
+  .home_sub_text {
+    font-size: 1.6rem;
+  }
+  .intro_section_sub_text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  .skill_page_boxes {
+    height: 40vh;
+  }
+  .footer_contact_conatiner {
+    width: 60%;
+  }
+}

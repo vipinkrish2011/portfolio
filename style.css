@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  /* height: auto; */
+  font-family: "poppins", sans-serif;
+  background-image: linear-gradient(to right, #090909, #202020);
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  margin: 3.2rem 3.4rem;
+}
+/************************************************** special color *********************************/
+.special_color {
+  color: #0066ff;
+}
+/************************************************** buttons **************************************/
+.btn_contact {
+  background: none;
+  cursor: pointer;
+  border: 0.2rem solid #f8f8f8;
+  /* border-radius: 5rem; */
+  color: #f8f8f8;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.2rem;
+  font-family: "poppins", sans-serif;
+}
+.project_btn {
+  background: none;
+  cursor: pointer;
+  border: 0.1rem solid #f8f8f8;
+  border-radius: 1rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.2rem;
+  font-family: "poppins", sans-serif;
+}
+.project_btn a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+.btn_see_more {
+  display: flex;
+  justify-content: center;
+  margin: 5.2rem 0;
+}
+.btn_dribble {
+  text-decoration: none;
+  padding: 1rem 1.8rem;
+  border: 1px solid #f8f8f8;
+  font-size: 1.4rem;
+}
+.btn_dribble:link,
+.btn_dribble:visited {
+  color: #f8f8f8;
+}
+/************************************************** buttons **************************************/
+.icon_spectate {
+  font-size: 1.2rem;
+  color: #f8f8f8;
+  padding: 0 0.8rem 0 0;
+}
+.icon_dribble {
+  font-size: 1.4rem;
+  padding-right: 1.2rem;
+}
+/************************************************** nav bar **************************************/
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+}
+.vk_logo {
+  width: 3%;
+  height: auto;
+}
+
+/************************************************** home page **************************************/
+.home_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.home_main_text {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.home_sub_text {
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-top: 1.6rem;
+}
+.home_main_img {
+  width: 30%;
+  text-align: center;
+}
+.image_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+/************************************************** into page **************************************/
+.overlay_box {
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #cad0ff, #e3e3e3);
+}
+.intro_section {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.intro_section_main_text {
+  width: 40%;
+  display: inline-block;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #111;
+}
+.intro_section_sub_text {
+  display: inline-block;
+  width: 50%;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-top: 2rem;
+  color: #111;
+}
+
+/************************************************** skill page **************************************/
+.skill_page {
+  display: flex;
+  justify-content: center;
+  margin: 5.2rem 0;
+  color: #f8f8f8;
+}
+.skill_page_heading {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #b9b8b8;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+.skill_page_subheading {
+  font-size: 3.4rem;
+  font-weight: 500;
+  font-size: 500;
+  text-align: center;
+  color: #cad0ff;
+}
+.skill_page_designer_developer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.8rem;
+  margin-bottom: 7.8rem;
+}
+.skill_page_boxes {
+  width: 32%;
+  height: 25rem;
+  /* padding: 1.8rem 2.4rem; */
+  border-radius: 2.2rem;
+  /* background-image: linear-gradient(to bottom right, #8b939a, #5b6467); */
+  background-color: black;
+}
+.skill_page_box_details {
+  display: flex;
+  gap: 3.2rem;
+  width: 90%;
+  padding-left: 2.4rem;
+}
+.skill_box_heading {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #cad0ff;
+  margin: 1.8rem 0;
+}
+
+.skill_title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #f8f8f8;
+}
+.skill_level {
+  font-size: 1rem;
+  color: #b9b8b8;
+  margin-bottom: 1.8rem;
+}
+/************************************************** roadmap page **************************************/
+.roadmap_heading_text {
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #f8f8f8;
+  /* background: linear-gradient(to bottom right, #8b939a, #5b6467); */
+  text-align: center;
+  margin: 4.8rem 0 2.4rem 0;
+}
+.roadmap_detail_box {
+  display: flex;
+  justify-content: center;
+  padding: 2.4rem 3.2rem;
+}
+.roadmap_box {
+  width: 100%;
+  padding: 3.2rem 2.8rem;
+  background-color: #111;
+}
+.roadmap_year {
+  color: #0066ff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+.roadmap_profession_heading {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.roadmap_profession_details {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+/************************************************** portfolio page **************************************/
+.skill_titles {
+  margin: 0 3.4rem 1.8rem 3.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #999999;
+}
+.projects_card_box {
+  margin: 0 3.4rem;
+  display: flex;
+  gap: 2.4rem;
+
+  /* justify-content: space-evenly; */
+}
+.project_card {
+  background-color: #4655c4;
+  border-radius: 1.2rem;
+  height: 100%;
+  width: 20%;
+  transition: all 0.3s;
+}
+.project_img_container {
+  width: 100%;
+  height: 25vh;
+  border-radius: 1rem 1rem 0 0;
+  margin-bottom: 1.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project_card:hover {
+  box-shadow: 0px 0px 28px 0px rgba(149, 162, 255, 0.4);
+}
+.project_img_1 {
+  background-image: url(/images/mockups/BMWshot.png);
+}
+.project_img_2 {
+  background-image: url(/images/mockups/zerodhashot.png);
+}
+.project_img_3 {
+  background-image: url(/images/mockups/applestoreshot.png);
+}
+.project_img_4 {
+  background-image: url(/images/mockups/omnifoodshot.png);
+}
+.project_img_5 {
+  background-image: url(/images/mockups/soloshot.png);
+}
+.project_content_container {
+  padding: 0 1rem 2.4rem 1rem;
+}
+.project_heading {
+  font-size: 1.8rem;
+  color: #f8f8f8;
+  /* background-color: lightslategray; */
+}
+.project_tools {
+  font-size: 1.2rem;
+  color: #f8f8f8;
+  font-weight: 400;
+  margin-top: 0.8rem;
+  /* background-color: lightslategray; */
+}
+.project_btn_container {
+  padding: 0 1rem 2.4rem 1rem;
+}
+
+/************************************************** footer **************************************/
+
+footer {
+  background-color: #090909;
+  margin-top: 7.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4.6rem 0;
+}
+.vk_logo_footer {
+  margin-bottom: 1rem;
+}
+.footer_quote {
+  color: #afafaf;
+  font-weight: 400;
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 2.8rem;
+  width: 50%;
+}
+.footer_social_icons {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer_social_icons a {
+  background-color: rgba(70, 85, 196, 0.75);
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+a .footer_icons {
+  color: #afafaf;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.footer_contact_conatiner {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.footer_email {
+  color: #afafaf;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.footer_phnumber {
+  color: #afafaf;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
